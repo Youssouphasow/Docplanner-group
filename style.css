@@ -1,0 +1,386 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-docplanner {
+    max-width: 150px;
+}
+
+.Acceuil ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.Acceuil ul li {
+    display: inline;
+}
+
+.nav-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Section Intro */
+.Petitlogo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Petitlogo img {
+    max-width: 50px;
+}
+
+.Paragraphe {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #747474;
+}
+
+/* Section Content */
+.container p {
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.carte1, .carte2, .carte3 {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.carte1 img, .carte2 img, .carte3 img {
+    max-width: 50px;
+    margin-bottom: 20px;
+}
+
+.pays {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    position: relative;
+    top: 115px;
+    height: 45px;
+}
+
+/* Global Company Section */
+.entreprise {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.entreprise p {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.leslogo {
+    padding: 20px 0;
+}
+
+.leslogo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.leslogo ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leslogo img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.color {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .Acceuil ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Petitlogo {
+        margin-top: 20px;
+    }
+    .Paragraphe {
+        font-size: 1.5rem;
+    }
+    .col-lg-4 mb-4{
+        flex: auto;
+        width: 15%;
+    }
+}
+
+
+.carte1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #747474;
+    color: white;
+    width:  400px;
+    height: 525px;
+}
+.carte2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    width:  400px;
+    height: 525px;
+}
+.carte3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 27);
+    color: white;
+    width:  400px;
+    height: 525px;
+}
+
+.lescartes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.carte4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #747474;
+    width:  300px;
+    height: 225px;
+}
+
+.carte5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #747474;
+    width:  300px;
+    height: 225px;
+}
+.carte6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #747474;
+    width:  300px;
+    height: 225px;
+}
+.carte7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #747474;
+    width:  300px;
+    height: 225px;
+}
+
+.Sow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.YOU{
+    color: #747474;
+}
+
+.carte6é7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.lescartes3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.AC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 155px;
+    color: #747474;
+    width: 755px;
+    position: relative;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.photo-card {
+    text-align: center;
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.photo-card font {
+    display: block;
+    margin: 15px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.Photo {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+.poto{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 12px;
+
+}
+
+.dernier h3{
+         text-align: center;
+         font-size: 2rem;
+         margin: 2rem 0;
+}
+
+.dernier h3 strong{
+    display: block;
+}
+
+.dernier{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #747474;
+}
+
+.logo1{
+    position: relative;
+    bottom: 115px;
+}
+.logo2{
+    position: relative;
+    bottom: 115px;
+}
+
+.logo3{
+    position: relative;
+    bottom: 115px;
+}
+
+.Patients{
+    position: relative;
+    font-size: 20px;
+    top: 45px;
+}
+.medecin{
+    position: relative;
+    font-size: 20px;
+    top: 45px;
+}
+.clinique{
+    position: relative;
+    font-size: 20px;
+    top: 45px;
+}
+
+.form-select{
+    position: relative;
+    top: 115px;
+}
+
+.pourpatients{
+    font-size: 40px;
+    position: relative;
+    bottom: 25px;
+}
+.pourmedecin{
+    font-size: 40px;
+    position: relative;
+    bottom: 25px;
+}
+.pourclinique{
+    font-size: 40px;
+    position: relative;
+    bottom: 25px;
+}
+
+.derniers{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 445px;
+    height: 45px;
+}
+
